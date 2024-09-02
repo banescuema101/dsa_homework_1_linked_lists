@@ -8,6 +8,7 @@ circulara, ci doar de una dublu inlantuita. Trenul este implementat cu structura
 pointer la celula ( de tip *TLista) si mecanicul, asemenea, dar va fi pozitionat unde vrea utilizatorul si respectand cerintele.
 ...............DESCRIEREA FUNCTIILOR.................
 
+
 /* Aproape fiecare legatura pe care am realizat-o intre elementele din liste este comentata corespunzator. */
 
 
@@ -71,7 +72,8 @@ respectiv sfarsitul listei duble inlantuite ( dar nu va mai fi circulara, si nic
 pe care le am mai facut sunt explicate frumos in comentarii, pentru o mai buna vizualizare(sunt asemanatoare cu implementarile din curs).
 
 ......................DESCRIEREA PROGRAMULUI PRINCIPAL....................................
-    Am intializat coada si trenuletul si am deschis fisierele de intrare respectiv iesire, tema1.in si tema1.out. Am initializat stringul sir[200],
+
+Am intializat coada si trenuletul si am deschis fisierele de intrare respectiv iesire, tema1.in si tema1.out. Am initializat stringul sir[200],
 ca fiind sirul pe care il voi citi din fisierul de intrare, pe fiecare linie in parte, cu fgets. Pentru fiecare sir elimin new-lineurile de la
 final, de dupa ce le am citit. Am retinut doar primul cuvant in copie_sir, si am comparat acest string cu comenzile de update si search, si daca
 coincideau, atunci, introduceam in lista din coada acel sir( comanda). !!! Eu spun ,,comanda" referindu-ma ca la input putem avea un cuvant,
