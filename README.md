@@ -6,6 +6,7 @@ ca in vagoanele trenului sa memoram cate un caracter. La fel si coada, cu inform
 nume de comenzi). Pentru coada am folosit alta structura de lista, pentru ca nu mai aveam nevoie de o lista cu santinela,
 circulara, ci doar de una dublu inlantuita. Trenul este implementat cu structura tren care contine santinela(=locomotiva), de tip
 pointer la celula ( de tip *TLista) si mecanicul, asemenea, dar va fi pozitionat unde vrea utilizatorul si respectand cerintele.
+
 ...............DESCRIEREA FUNCTIILOR.................
 
 
