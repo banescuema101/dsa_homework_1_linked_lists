@@ -1,4 +1,4 @@
-    Pentru început, în fisierul operatii.c am implementat functiile de care m am ajutat ca in fisieruk tema1.c,
+Pentru început, în fisierul operatii.c am implementat functiile de care m am ajutat ca in fisieruk tema1.c,
 sa implementez taskurile problemei. Antetele functiilor, cat si structurile pe care le-am folosit sunt
 implementate in fisierul operatii.h.
     Astfel, structura pentru celula si lista este preluata conform cursului, doar ca info e de tip char, deoarece ne propunem
@@ -6,9 +6,7 @@ ca in vagoanele trenului sa memoram cate un caracter. La fel si coada, cu inform
 nume de comenzi). Pentru coada am folosit alta structura de lista, pentru ca nu mai aveam nevoie de o lista cu santinela,
 circulara, ci doar de una dublu inlantuita. Trenul este implementat cu structura tren care contine santinela(=locomotiva), de tip
 pointer la celula ( de tip *TLista) si mecanicul, asemenea, dar va fi pozitionat unde vrea utilizatorul si respectand cerintele.
-.....................................................
 ...............DESCRIEREA FUNCTIILOR.................
-.....................................................
 
 /* Aproape fiecare legatura pe care am realizat-o intre elementele din liste este comentata corespunzator. */
 
@@ -72,9 +70,7 @@ Ultimele 6 functii se refera la coada de comenzi, ai carei pointeri din structur
 respectiv sfarsitul listei duble inlantuite ( dar nu va mai fi circulara, si nici cu santinela). Toate, cu toate legaturile
 pe care le am mai facut sunt explicate frumos in comentarii, pentru o mai buna vizualizare(sunt asemanatoare cu implementarile din curs).
 
-..........................................................................................
 ......................DESCRIEREA PROGRAMULUI PRINCIPAL....................................
-..........................................................................................
     Am intializat coada si trenuletul si am deschis fisierele de intrare respectiv iesire, tema1.in si tema1.out. Am initializat stringul sir[200],
 ca fiind sirul pe care il voi citi din fisierul de intrare, pe fiecare linie in parte, cu fgets. Pentru fiecare sir elimin new-lineurile de la
 final, de dupa ce le am citit. Am retinut doar primul cuvant in copie_sir, si am comparat acest string cu comenzile de update si search, si daca
